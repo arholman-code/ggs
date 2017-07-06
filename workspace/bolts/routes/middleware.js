@@ -25,16 +25,16 @@ exports.initLocals = function (req, res, next) {
 		// { label: 'Contact', key: 'contact', href: '/contact' },
 		{ label: 'New!', key: 'home', href: '/blog' },
 		{ label: 'Games', key: 'games', pages: [
-			{ label: 'Nintendo', subkey: 'nintendo', href: '/nintendo' },
-			{ label: 'Sony', subkey: 'sony', href: '/sony' },
-			{ label: 'Microsoft', subkey: 'msft', href: '/microsoft' },
-			{ label: 'PC', subkey:'pc', href: '/pc' },
-			{ label: 'Board/RPG', subkey:'board', href:'/href' }
+			{ label: 'Nintendo', subkey: 'nintendo', href: '../blog/nintendo?' },
+			{ label: 'Sony', subkey: 'sony', href: '../blog/sony?' },
+			{ label: 'Microsoft', subkey: 'msft', href: '../blog/microsoft?' },
+			{ label: 'PC', subkey:'pc', href: '../blog/pc?' },
+			{ label: 'Board/RPG', subkey:'board', href:'../blog/boardrpg?' }
 		]},
-		{ label: 'Reviews', key: 'reviews', href: '/reviews' },
-		{ label: 'Media', key: 'media', href: '/media' },
-		{ label: 'Film/TV', key: 'filmtv', href: '/filmtv' },
-		{ label: 'Contact', key: 'contact', href:'/contact' }
+		{ label: 'Reviews', key: 'reviews', href: '../blog/reviews?' },
+		{ label: 'Media', key: 'media', href: '../blog/media?' },
+		{ label: 'Film/TV', key: 'filmtv', href: '../blog/filmtv?' },
+		{ label: 'Contact', key: 'contact', href:'../blog/contact?' }
 	];
 	res.locals.user = req.user;
 	next();
