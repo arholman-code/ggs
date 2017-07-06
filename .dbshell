@@ -1,0 +1,17 @@
+show dbs
+use bolts
+show collections
+db.users.find()
+help
+db.users.help()
+show dbs
+use bolts
+show collections
+db.posts.find()
+db.users.find()
+db.postcategories.find()
+db.galleries.find()
+show dbs
+use bolts
+show collections
+db.posts.find()

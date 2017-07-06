@@ -1,0 +1,1 @@
+{"versions":{"1.0.0":{"name":"titleize","version":"1.0.0","devDependencies":{"ava":"0.0.4"},"directories":{},"dist":{"shasum":"7d350722061830ba6617631e0cfd3ea08398d95a","tarball":"https://registry.npmjs.org/titleize/-/titleize-1.0.0.tgz"},"engines":{"node":">=0.10.0"},"_hasShrinkwrap":false}},"name":"titleize","dist-tags":{"latest":"1.0.0"},"modified":"2017-03-05T12:01:20.555Z"}

@@ -1,0 +1,1 @@
+<scope ilk="blob" lang="Less" name="layout.less" src="bolts/public/styles/site/layout.less"><scope ilk="id" line="1" name="#header" target="header" /><scope ilk="id" line="5" name="#footer" target="footer" /><scope ilk="class" line="12" name=".gallery-image img" target="gallery-image" /><scope ilk="id" line="18" name="#postheader" target="postheader" /></scope>
