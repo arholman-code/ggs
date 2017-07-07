@@ -20,21 +20,20 @@ var _ = require('lodash');
 exports.initLocals = function (req, res, next) {
 	res.locals.navLinks = [
 		// { label: 'News', key: 'home', href: '/' },
-		// { label: 'Blog', key: 'blog', href: '/blog' },
+		// { label: 'home', key: 'home', href: '/home' },
 		// { label: 'Gallery', key: 'gallery', href: '/gallery' },
 		// { label: 'Contact', key: 'contact', href: '/contact' },
-		{ label: 'New!', key: 'home', href: '/blog' },
+		{ label: 'New!', key: 'home', href: '/home' },
 		{ label: 'Games', key: 'games', pages: [
-			{ label: 'Nintendo', subkey: 'nintendo', href: '../blog/nintendo?' },
-			{ label: 'Sony', subkey: 'sony', href: '../blog/sony?' },
-			{ label: 'Microsoft', subkey: 'msft', href: '../blog/microsoft?' },
-			{ label: 'PC', subkey:'pc', href: '../blog/pc?' },
-			{ label: 'Board/RPG', subkey:'board', href:'../blog/boardrpg?' }
+			{ label: 'Nintendo', subkey: 'nintendo', href: '../../home/nintendo?' },
+			{ label: 'Sony', subkey: 'sony', href: '../../home/sony?' },
+			{ label: 'Microsoft', subkey: 'msft', href: '../../home/microsoft?' },
+			{ label: 'PC', subkey:'pc', href: '../../home/pc?' },
+			{ label: 'Board/RPG', subkey:'board', href:'../../home/boardrpg?' }
 		]},
-		{ label: 'Reviews', key: 'reviews', href: '../blog/reviews?' },
-		{ label: 'Media', key: 'media', href: '../blog/media?' },
-		{ label: 'Film/TV', key: 'filmtv', href: '../blog/filmtv?' },
-		{ label: 'Contact', key: 'contact', href:'../blog/contact?' }
+		{ label: 'Reviews', key: 'reviews', href: '../../home/reviews?' },
+		{ label: 'Media', key: 'media', href: '../../home/media?' },
+		{ label: 'Film/TV', key: 'filmtv', href: '../../home/filmtv?' }
 	];
 	res.locals.user = req.user;
 	next();
